@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">xyu_restaurant</string>
+    <string name="login_tv_title">即刻美食</string>
+    <string name="regist_edit_username">请输入用户名</string>
+    <string name="regit_password">请输入密码</string>
+    <string name="redist_repassword">请重复输入密码</string>
+</resources>

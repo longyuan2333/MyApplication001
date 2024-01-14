@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:background="@drawable/divider_normal_bottom"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp">
+
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="140dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/item_image"></ImageView>
+
+    <LinearLayout
+        android:id="@+id/order_lable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="8dp"
+        android:layout_toRightOf="@id/iv_image"
+        android:orientation="vertical">
+<LinearLayout
+    android:id="@+id/tv_goods_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/id_tv_labe4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:textSize="16dp"
+        android:text="商品名称：" />
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textSize="16dp"
+        android:ellipsize="end"
+        android:text=" 宫保鸡丁" />
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/tv_goods_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/id_tv_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:textSize="16dp"
+            android:text="商品价格：" />
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:textSize="16dp"
+            android:text="23元/份" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/tv_goods_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/id_tv_labe2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:textSize="16dp"
+            android:text="订单数量：" />
+        <TextView
+            android:id="@+id/tv_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:textSize="16dp"
+            android:text="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/tv_goods_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/id_tv_labe3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:textSize="16dp"
+            android:text="下单时间：" />
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:textSize="16dp"
+            android:text="2020-05-24 22:53:13" />
+    </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

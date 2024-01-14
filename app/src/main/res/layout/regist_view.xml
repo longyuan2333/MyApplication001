@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+ <include layout="@layout/commom_toorbar"/>
+    <EditText
+        android:id="@+id/edit_phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="40dp"
+        android:hint="@string/regist_edit_username"
+        android:textColorHint="#000"
+        android:background="#fff"
+         android:inputType="textWebEditText"
+         android:paddingLeft="8dp"
+        />
+
+    <EditText
+        android:id="@+id/edit_password"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="5dp"
+        android:hint="@string/regit_password"
+        android:textColorHint="#000"
+        android:background="#fff"
+        android:inputType="textPassword"
+        android:paddingLeft="8dp" />
+    <EditText
+        android:id="@+id/edit_repassword"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="5dp"
+        android:hint="@string/redist_repassword"
+        android:textColorHint="#000"
+        android:background="#fff"
+        android:inputType="textPassword"
+        android:paddingLeft="8dp"
+        />
+    <Button
+        android:id="@+id/regist_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:text="提交"
+        android:layout_marginTop="50dp"
+        style="@style/Button_Large_Black"/>
+</LinearLayout>
